@@ -1,4 +1,4 @@
-package com.example.ej5.profile;
+package com.example.ej5.profiles;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;

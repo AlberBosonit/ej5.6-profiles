@@ -1,4 +1,4 @@
-package com.example.ej5.profile;
+package com.example.ej5.profiles;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -6,8 +6,9 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
-@Profile("production")
-public class PerfilProduction implements Perfil, CommandLineRunner {
+@Profile("integration")
+public class PerfilIntegration implements Perfil, CommandLineRunner {
+
 
     @Value("${environment}")
     String environment;

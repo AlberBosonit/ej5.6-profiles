@@ -1,4 +1,4 @@
-package com.example.ej5.profile;
+package com.example.ej5.profiles;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

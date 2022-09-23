@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Integration" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="com.example.ej5.profile.Application" />
+    <option name="MAIN_CLASS_NAME" value="com.example.ej5.profiles.Application" />
     <module name="ej5.6-profiles" />
     <option name="VM_PARAMETERS" value="-Dspring.profiles.active=integration" />
     <method v="2">
